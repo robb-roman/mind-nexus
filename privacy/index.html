@@ -1,0 +1,223 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Política de privacidad · Mind Nexus</title><link rel="icon" href="../icon.png"><style>
+:root{--bg:#eef1f5;--card:#fff;--text:#161a21;--sub:#4a5361;--accent:#2f7fe0;--line:#d6dbe1}
+@media (prefers-color-scheme:dark){:root{--bg:#10141c;--card:#181e29;--text:#e8ecf3;--sub:#9aa4b5;--accent:#5aa9ff;--line:#2a3242}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:820px;margin:0 auto;padding:32px 16px 64px}
+header{display:flex;align-items:center;gap:16px;margin-bottom:24px}header img{width:64px;height:64px;border-radius:16px}
+header h1{margin:0;font-size:1.6rem}header p{margin:2px 0 0;color:var(--sub)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:24px;margin-bottom:20px}
+a{color:var(--accent)}nav a{margin-right:16px}
+table{border-collapse:collapse;width:100%;font-size:.92rem;display:block;overflow-x:auto}th,td{border:1px solid var(--line);padding:8px;text-align:left;vertical-align:top}
+h1,h2,h3{line-height:1.25}footer{color:var(--sub);font-size:.9rem;text-align:center}
+</style></head><body><main>
+<header><img src="../icon.png" alt=""><div><h1>Mind Nexus</h1><p>RoDEVS</p></div></header>
+<nav class="card" style="padding:12px 24px"><a href="../index.html">Inicio · Home</a><a href="../privacy/">Privacidad · Privacy</a></nav>
+<p><a href="#es">Español</a> · <a href="#en">English</a></p><section class="card" id="es"><h1>Política de privacidad — Mind Nexus</h1>
+<p><em>Última actualización: 10 de octubre de 2026</em></p>
+<p>Mind Nexus es una aplicación de tableros de ideas en realidad virtual y mixta para visores Meta Quest. Esta
+política explica qué datos usa la app, para qué, con quién se comparten y cómo puedes eliminarlos.</p>
+<h2>Resumen</h2>
+<ul>
+<li><strong>No tenemos servidores ni cuentas de usuario.</strong> Tus tableros, notas, audios, imágenes y ajustes se guardan solo en
+  tu visor.</li>
+<li><strong>No hay publicidad ni herramientas de analítica o seguimiento.</strong></li>
+<li>Algunos datos salen del visor <strong>solo cuando tú usas una función que lo requiere</strong> (IA, transcripción, Google Drive,
+  Dropbox, imágenes por URL), y van <strong>directamente</strong> del visor al servicio que tú configuras, no a nosotros.</li>
+</ul>
+<h2>1. Datos que se recogen y para qué</h2>
+<table>
+<thead>
+<tr>
+<th>Dato</th>
+<th>Cuándo</th>
+<th>Uso</th>
+<th>Dónde queda</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Contenido de tus tableros (texto, tablas, listas, gráficas, imágenes, audios, archivos importados)</td>
+<td>Al crearlos o importarlos</td>
+<td>Mostrar y editar tus tableros</td>
+<td>Solo en el almacenamiento de la app en tu visor</td>
+</tr>
+<tr>
+<td>Ajustes y claves de API que escribes (Claude, OpenAI, Gemini, Groq, OpenRouter, transcripción, Google, Dropbox)</td>
+<td>Al guardarlos en Ajustes</td>
+<td>Conectar con los servicios que eliges</td>
+<td>Solo en tu visor (archivo de ajustes de la app)</td>
+</tr>
+<tr>
+<td>Audio del micrófono</td>
+<td>Solo mientras grabas una nota de voz o dictas (lo inicias tú)</td>
+<td>Guardar la nota de voz o convertir la voz en texto</td>
+<td>En tu visor; si usas transcripción, se envía al servicio de transcripción que configuraste</td>
+</tr>
+<tr>
+<td>Modelo de la habitación (paredes y mesas escaneadas por el visor)</td>
+<td>Si concedes el permiso «datos espaciales»</td>
+<td>Pegar ventanas a las paredes y abrir la ventana al escritorio</td>
+<td>Se usa en el visor; no se envía a ningún sitio</td>
+</tr>
+<tr>
+<td>Archivos del almacenamiento del visor</td>
+<td>Solo los que eliges en el explorador (si concedes «Acceso a todos los archivos»)</td>
+<td>Abrirlos en el visor de archivos o importarlos a un tablero</td>
+<td>En tu visor</td>
+</tr>
+<tr>
+<td>Tokens de acceso de Google Drive o Dropbox</td>
+<td>Si conectas esas cuentas</td>
+<td>Listar, importar y exportar tus archivos</td>
+<td>Solo en tu visor</td>
+</tr>
+<tr>
+<td>Portapapeles del visor</td>
+<td>Solo cuando eliges «Pegar» o «Copiar»</td>
+<td>Pegar texto en un campo o en una nota, o copiar el tuyo</td>
+<td>Se lee y escribe en el visor; no se envía a ningún sitio</td>
+</tr>
+</tbody>
+</table>
+<h2>2. Con quién se comparten (solo cuando usas la función)</h2>
+<p>Los datos van <strong>directamente desde tu visor</strong> al servicio que eliges; cada servicio los trata según su propia política:</p>
+<ul>
+<li><strong>Inteligencia artificial</strong> («Pregunta IA», resumir, desglosar, búsqueda web): el texto de la pregunta, las notas
+  conectadas como contexto y, si lo pides, las direcciones web que quieres resumir se envían al proveedor que
+  configuraste: Anthropic (Claude), OpenAI, Google (Gemini), Groq, OpenRouter, o un servidor propio (p. ej. Ollama en
+  tu ordenador).</li>
+<li><strong>Transcripción de voz</strong> (dictado, botón de voz): el audio grabado se envía al servicio de transcripción que
+  configuraste (Groq, OpenAI o un servidor propio).</li>
+<li><strong>Google Drive / Dropbox</strong>: solo los archivos que eliges importar o exportar. Con Google, en el modo recomendado, la
+  app solo puede ver los archivos que ella misma creó.</li>
+<li><strong>Imágenes por URL</strong>: la app descarga la imagen de la dirección que escribes.</li>
+<li><strong>Quest Browser</strong>: la herramienta «Navegador» abre el navegador del sistema; lo que hagas allí se rige por la
+  política de ese navegador.</li>
+<li><strong>Licencia (Meta)</strong>: al abrirse, la app pregunta a la plataforma de Meta del visor si tu cuenta la tiene en su
+  biblioteca. Esa comprobación la hace Meta; nosotros no recibimos tu identidad ni tus datos.</li>
+</ul>
+<p>El sistema operativo del visor (Horizon OS) y el SDK de Meta pueden recoger datos técnicos según la
+<a href="https://www.meta.com/legal/privacy-policy/">política de privacidad de Meta</a>. No vendemos ni compartimos tus datos con
+nadie más.</p>
+<h2>3. Cómo eliminar tus datos</h2>
+<ul>
+<li><strong>Un tablero o escenario</strong>: Menú › Configuración › Tableros (o Escenarios) › Eliminar.</li>
+<li><strong>Claves de API y cuentas</strong>: Menú › Configuración › Ajustes: borra las claves y pulsa Guardar; en Importar ›
+  Google Drive o Dropbox pulsa «Desconectar». También puedes revocar el acceso desde tu cuenta de Google o Dropbox.</li>
+<li><strong>Todo</strong>: desinstalar la app borra todos sus datos del visor.</li>
+<li><strong>Datos enviados a servicios externos</strong>: se eliminan según la política de cada servicio (Anthropic, OpenAI, Google,
+  Groq, OpenRouter, Dropbox).</li>
+</ul>
+<h2>4. Seguridad</h2>
+<p>Los datos se guardan en el almacenamiento privado de la app y las conexiones con servicios en internet usan HTTPS
+(salvo los servidores propios en tu red local que tú configures con «http://»). Las claves de API no se envían a nadie
+más que al servicio al que pertenecen.</p>
+<h2>5. Menores</h2>
+<p>La app no está dirigida a menores de 13 años y no recoge datos de forma intencionada de ellos.</p>
+<h2>6. Cambios y contacto</h2>
+<p>Si cambiamos esta política publicaremos la nueva versión en esta página con su fecha. Para cualquier pregunta o para
+ejercer tus derechos de acceso o eliminación: <strong>r0byx1225@gmail.com</strong>.</p></section><section class="card" id="en" lang="en"><h1>Privacy Policy — Mind Nexus</h1>
+<p><em>Last updated: October 10, 2026</em></p>
+<p>Mind Nexus is a virtual- and mixed-reality idea-board app for Meta Quest headsets. This policy explains what data the
+app uses, why, who it is shared with, and how to delete it.</p>
+<h2>Summary</h2>
+<ul>
+<li><strong>We have no servers and no user accounts.</strong> Your boards, notes, audio, images and settings are stored only on your
+  headset.</li>
+<li><strong>No ads, no analytics or tracking tools.</strong></li>
+<li>Data leaves the headset <strong>only when you use a feature that needs it</strong> (AI, transcription, Google Drive, Dropbox,
+  images from a URL), and it goes <strong>directly</strong> from the headset to the service you configure, never to us.</li>
+</ul>
+<h2>1. Data used and why</h2>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>When</th>
+<th>Purpose</th>
+<th>Where it stays</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Board content (text, tables, lists, charts, images, audio, imported files)</td>
+<td>When you create or import it</td>
+<td>Display and edit your boards</td>
+<td>Only in the app's storage on your headset</td>
+</tr>
+<tr>
+<td>Settings and API keys you enter (Claude, OpenAI, Gemini, Groq, OpenRouter, transcription, Google, Dropbox)</td>
+<td>When you save them in Settings</td>
+<td>Connect to the services you choose</td>
+<td>Only on your headset (app settings file)</td>
+</tr>
+<tr>
+<td>Microphone audio</td>
+<td>Only while you record a voice note or dictate (started by you)</td>
+<td>Save the voice note or turn speech into text</td>
+<td>On your headset; if you use transcription, sent to the transcription service you configured</td>
+</tr>
+<tr>
+<td>Room model (walls and tables scanned by the headset)</td>
+<td>If you grant the "spatial data" permission</td>
+<td>Snap windows to walls and open the desk window</td>
+<td>Used on the headset; never sent anywhere</td>
+</tr>
+<tr>
+<td>Files in the headset's storage</td>
+<td>Only the ones you pick in the file explorer (if you grant "All files access")</td>
+<td>Open them in the file viewer or import them into a board</td>
+<td>On your headset</td>
+</tr>
+<tr>
+<td>Google Drive / Dropbox access tokens</td>
+<td>If you connect those accounts</td>
+<td>List, import and export your files</td>
+<td>Only on your headset</td>
+</tr>
+<tr>
+<td>Headset clipboard</td>
+<td>Only when you choose "Paste" or "Copy"</td>
+<td>Paste text into a field or note, or copy your own</td>
+<td>Read and written on the headset; never sent anywhere</td>
+</tr>
+</tbody>
+</table>
+<h2>2. Who it is shared with (only when you use the feature)</h2>
+<p>Data goes <strong>directly from your headset</strong> to the service you choose; each service handles it under its own policy:</p>
+<ul>
+<li><strong>Artificial intelligence</strong> ("AI question", summarize, break down, web search): the question text, the notes
+  connected to it as context and, if you ask, the web addresses you want summarized are sent to the provider you
+  configured: Anthropic (Claude), OpenAI, Google (Gemini), Groq, OpenRouter, or your own server (e.g. Ollama on your
+  computer).</li>
+<li><strong>Speech transcription</strong> (dictation, voice button): the recorded audio is sent to the transcription service you
+  configured (Groq, OpenAI or your own server).</li>
+<li><strong>Google Drive / Dropbox</strong>: only the files you choose to import or export. With Google, in the recommended mode, the
+  app can only see files it created itself.</li>
+<li><strong>Images from a URL</strong>: the app downloads the image from the address you enter.</li>
+<li><strong>Quest Browser</strong>: the "Browser" tool opens the system browser; what you do there is governed by that browser's
+  policy.</li>
+<li><strong>License (Meta)</strong>: when it opens, the app asks the headset's Meta platform whether your account owns it. Meta
+  performs that check; we never receive your identity or your data.</li>
+</ul>
+<p>The headset's operating system (Horizon OS) and the Meta SDK may collect technical data under
+<a href="https://www.meta.com/legal/privacy-policy/">Meta's privacy policy</a>. We do not sell or share your data with anyone else.</p>
+<h2>3. How to delete your data</h2>
+<ul>
+<li><strong>A board or scenario</strong>: Menu › Settings › Boards (or Scenarios) › Delete.</li>
+<li><strong>API keys and accounts</strong>: Menu › Settings › Settings: clear the keys and press Save; in Import › Google Drive or
+  Dropbox press "Disconnect". You can also revoke access from your Google or Dropbox account.</li>
+<li><strong>Everything</strong>: uninstalling the app deletes all of its data from the headset.</li>
+<li><strong>Data sent to external services</strong>: deleted according to each service's policy (Anthropic, OpenAI, Google, Groq,
+  OpenRouter, Dropbox).</li>
+</ul>
+<h2>4. Security</h2>
+<p>Data is stored in the app's private storage, and connections to internet services use HTTPS (except your own servers on
+your local network that you configure with "http://"). API keys are only ever sent to the service they belong to.</p>
+<h2>5. Children</h2>
+<p>The app is not directed at children under 13 and does not knowingly collect data from them.</p>
+<h2>6. Changes and contact</h2>
+<p>If we change this policy we will publish the new version on this page with its date. For any question or to exercise
+your access or deletion rights: <strong>r0byx1225@gmail.com</strong>.</p></section>
+<footer>© 2026 RoDEVS · <a href="mailto:r0byx1225@gmail.com">r0byx1225@gmail.com</a></footer></main></body></html>
